@@ -8,7 +8,7 @@ function MainLayout({ children }) {
     return (
         <div css={S.SLayout}>
             <MainSidebar />
-            { children }
+            {children}
         </div>
     );
 }
